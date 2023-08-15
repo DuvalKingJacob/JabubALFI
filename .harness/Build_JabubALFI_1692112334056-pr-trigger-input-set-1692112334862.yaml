@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JabubALFI_1692112334056-pr-trigger-input-set
+  identifier: Build_JabubALFI_1692112334056prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Duvalia
+  pipeline:
+    identifier: Build_JabubALFI_1692112334056
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
