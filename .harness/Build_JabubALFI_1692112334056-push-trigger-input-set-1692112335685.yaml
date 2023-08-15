@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JabubALFI_1692112334056-push-trigger-input-set
+  identifier: Build_JabubALFI_1692112334056pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Duvalia
+  pipeline:
+    identifier: Build_JabubALFI_1692112334056
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
